@@ -1,5 +1,19 @@
 body{
     margin:0;
     padding:0;
-    background-color: green;
+    background-color: red;
+}
+
+header,footer{
+    width: 100%;
+    background-color: white;
+}
+header{
+    height: 15vh;
+}
+footer{
+    height: 5vh;
+}
+.contPrincipal{
+    display: flex;
 }
