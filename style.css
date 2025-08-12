@@ -15,5 +15,13 @@ footer{
     height: 5vh;
 }
 .contPrincipal{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap:5%;
+}
+h3{
+    font-size: 20px;
+    font-family: "arial"
+    color: aquamarine;
+    text-align: right;
 }
